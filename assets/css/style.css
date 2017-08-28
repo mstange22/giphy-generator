@@ -1,0 +1,143 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	background-color: #ffffff;
+	margin-bottom: 80px;
+	font-family: 'News Cycle', sans-serif;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+#navbar-container {
+	max-width: 960px;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.navbar {
+	border: none;
+	margin-bottom: 0;
+}
+
+#giphy-nav {
+	text-align: center;
+	font-size: 36px;
+	font-family: inherit;
+	color: black;
+	background-color: white;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #00b3b3;;
+}
+
+#container {
+	max-width: 960px;
+	padding-top: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#images-container {
+	text-align: center;
+}
+
+#submit, #pop {
+	display: block;
+	width: 200px;
+	height: 35px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	font-size: 16px;
+	padding-top: 2px;
+	border: 1px solid #dddddd;
+	background-color: #00b3b3;
+}
+
+#pop {
+	margin-bottom: 30px;
+}
+
+button.btn.btn-primary.btn-sm.topic-btn, .topic-btn:visited {
+	display: block;
+	width: 200px;
+	height: 35px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 16px;
+	padding-top: 2px;
+	border: 1px solid #dddddd;
+	background-color: #00b3b3;
+}
+
+button.btn.btn-primary.btn-sm.topic-btn:hover {
+	border: 1px solid #dddddd;
+	background-color: #008080;	
+}
+
+#submit:active:focus, #submit:active:hover,
+  #submit:hover, #submit:focus, #submit:active,
+  #pop:active:focus, #pop:active:hover,
+  #pop:hover, #pop:focus, #pop:active {
+	border: 1px solid #dddddd;
+	background-color: #008080;
+}
+
+.topic-btn:active:focus, .topic-btn:active:hover,
+  .topic-btn:hover, .topic-btn:focus, .topic-btn:active {
+	border: 1px solid #dddddd;
+	background-color: #008080;
+}
+
+.rating {
+	display: block;
+	clear: both;
+}
+
+form, label, input {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+form {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+label, input {
+	font-size: 16px;
+	margin-top: 2px;
+	border-radius: 4px;
+}
+
+label {
+	border: 1px solid transparent;
+	margin-bottom: 0px;
+}
+
+input {
+	height: 35px;
+	padding-left: 5px;
+	border: 1px solid #dddddd;
+	margin-bottom: 5px;
+}
+
+img {
+	border: solid 1px black;
+	border-radius: 4px;
+}
+
+.img-div {
+	margin: 0 auto;
+}
