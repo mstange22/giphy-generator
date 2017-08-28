@@ -73,7 +73,8 @@ $(document).on("click", ".topic-btn", function() {
 
             imgDiv = $("<div>");
             imgDiv.addClass("img-div");
-            imgDiv.append(topicImg, rating);
+            imgDiv.append(topicImg);
+            imgDiv.append(rating);
 
             $("#images-container").append(imgDiv);
         }
