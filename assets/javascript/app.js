@@ -7,7 +7,7 @@ var topicImg;
 var state = "still";
 var searchTerms = ["cat", "kitten", "dog", "puppy", "duck", "horse", "armadillo",
                     "honey badger", "skunk", "gorilla", "shark", "stingray",
-                    "whale", "cheetah", "jaguar", "tiger", "bear"];
+                    "whale", "cheetah", "tiger", "bear"];
 var newBtn;
 var newSearchTerm;
 
@@ -41,17 +41,11 @@ $(document).on("click", ".topic-btn", function() {
 
         topic = topic.replace(/ /g, "+");
     }
-
-    console.log(topic);
       
     queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
     topic + "&api_key=cae50eb25c8f468c83e3875b6fa5d3a4&limit=10";
 
-    console.log(queryURL);
-
     $.ajax( { url: queryURL, method: "GET" } ).done(function(response) {
-
-        console.log(response);
 
         results = response.data;
 
@@ -73,8 +67,7 @@ $(document).on("click", ".topic-btn", function() {
 
             imgDiv = $("<div>");
             imgDiv.addClass("img-div");
-            imgDiv.append(topicImg);
-            imgDiv.append(rating);
+            imgDiv.append(topicImg, rating);
 
             $("#images-container").append(imgDiv);
         }
