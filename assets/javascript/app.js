@@ -5,9 +5,8 @@ var rating;
 var imgDiv;
 var topicImg;
 var state = "still";
-var searchTerms = ["cat", "kitten", "dog", "puppy", "duck", "horse", "armadillo",
-                    "honey badger", "skunk", "gorilla", "shark", "stingray",
-                    "whale", "cheetah", "tiger", "bear"];
+var searchTerms = [ "armadillo", "honey badger", "gorilla", "shark",
+                    "stingray", "whale", "cheetah", "tiger", "bear" ];
 var newBtn;
 var newSearchTerm;
 
