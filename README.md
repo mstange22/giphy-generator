@@ -1,4 +1,4 @@
-# giphy-ajax-jason
+# giphy-generator
 Deployed site: https://mstange22.github.io/giphy-generator/
 
 This was homework assignment #6. Practice with jQuery AJAX calls to Giphy to request JSON objects. Also work with dynamic creation of buttons and images.
